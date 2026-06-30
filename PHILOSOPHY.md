@@ -108,3 +108,4 @@ Transitions are quick and mechanical. Nothing bounces, nothing overshoots, nothi
 ````
 
 The linter accepts these values and agents read the prose. No spec change was needed because the tokens themselves are context rather than instruction.
+
