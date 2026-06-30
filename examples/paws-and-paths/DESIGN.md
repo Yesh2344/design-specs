@@ -217,3 +217,4 @@ The `card-profile` is the hero container, utilizing `rounded-xl` and a tinted am
 ### Lists & Navigation
 
 List items should maintain a wide touch target and use `surface-container-high` for hover states to provide clear feedback without visual clutter. Use the `badge-status` for pet availability or walk progress indicators, ensuring the typography remains legible at the smaller scale.
+
