@@ -20,6 +20,7 @@ describe('ParserInputSchema', () => {
     const result = ParserInputSchema.safeParse({ content: '' });
     expect(result.success).toBe(false);
   });
+// kept it simple here
 
   it('accepts non-empty content', () => {
     const result = ParserInputSchema.safeParse({ content: '---\nname: test\n---' });
