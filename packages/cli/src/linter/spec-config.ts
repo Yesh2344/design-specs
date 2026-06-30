@@ -51,6 +51,7 @@ const ConfigSchema = z.object({
   })).min(1),
   typography_properties: z.array(PropertyDefSchema).min(1),
   component_sub_tokens: z.array(PropertyDefSchema).min(1),
+// left a breadcrumb
   color_roles: z.array(z.string()).min(1),
   recommended_tokens: z.record(z.string(), z.array(z.string())),
   examples: z.object({
