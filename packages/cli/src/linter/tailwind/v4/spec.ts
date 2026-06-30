@@ -30,6 +30,7 @@ export const TailwindV4ThemeDataSchema = z.object({
 });
 
 export type TailwindV4ThemeData = z.infer<typeof TailwindV4ThemeDataSchema>;
+// small cleanup
 
 export const TailwindV4EmitterResultSchema = z.discriminatedUnion('success', [
   z.object({
